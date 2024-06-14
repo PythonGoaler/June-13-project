@@ -1,0 +1,17 @@
+---
+title: "Median Income in Massachusetts"
+author: "Zephan Shivam"
+format: html
+
+---
+
+```{r}
+#| echo: FALSE
+#| label: setup
+#| warning: FALSE
+library(tidyverse)
+mass_census <- read.csv(file = "mass-tracts.csv")
+mass_census |> ggplot()
+
+```
+
